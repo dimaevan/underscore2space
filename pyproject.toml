@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "underscore2space"
+version = "0.1.0"
+description = ""
+authors = ["Dima Evan <dimaevan@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include='u2s' },
+]
+
+[tool.poetry.scripts]
+u2s = "u2s.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,5 @@
+venv/
+*.pdf
+.idea/
+*.pyc
+dist/
